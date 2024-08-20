@@ -1,0 +1,13 @@
+.card:hover{
+    animation: expand 170ms ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes expand {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.04);
+        box-shadow: 9px 9px 6px 0px darkgrey;
+    }
+}
